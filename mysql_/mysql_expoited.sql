@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM tbl_nutzer WHERE Benutzer_Name = 'admin' AND Benutzer_Passwort = '' or 1=1--'
