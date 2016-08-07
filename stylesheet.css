@@ -1,0 +1,258 @@
+* {
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
+
+body 
+{
+	background: #dfdfdf;
+	font-family: Arial;
+	font-size: 14px;
+	color: gray;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header 
+{
+	background: #fff;
+	width: 100%;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#inhalt
+{
+	margin-top: 20px;
+	background: #fff;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: left;
+	
+}
+
+#inhalt-table
+{
+    border-collapse: collapse;
+	margin-top: 20px;
+	background: #fff;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ueberschrift
+{
+	margin-top: 20px;
+	background: #fff;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+#nav-bar-links
+{
+	width: 80%;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#nav-bar-links a
+{
+	text-decoration: none;	
+	color: gray;	
+	margin: 0 auto;
+	line-height: 70px;		
+}
+
+#nav-bar-links div
+{
+	display: inline;
+    position: absolute;	
+	
+}
+
+#Login-form
+{
+	display: inline;
+	width: 40%;
+}
+
+#Anmelden
+{
+	margin-left: 30%;
+	margin-right: auto;
+	float: left;
+	display: inline;
+}
+
+#Registrieren
+{
+	margin-right: 30%;
+	margin-left: auto;
+	float: right;
+	display: inline;
+}
+
+#Login-form input[type=submit]
+{
+	width: auto;
+	height : 30px;
+	font-size : 20px;
+}
+
+#URL-form
+{
+	display: inline;
+	width : 60%;
+}
+
+#URL-form input[type=text]
+{
+	width : 80%;
+	height: 40px;
+	font-size : 20px;	
+}
+
+#URL-form input[type=submit]
+{
+	background: url(button.png);
+	border: 0;
+	width: 40px;
+	height : 40px;
+	font-size : 20px;
+	position : absolute;
+}
+
+#URL-art
+{
+	margin-left: 10%;
+	float : left;
+}
+
+#URL-form select
+{	
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+ 
+
+#URL-form textarea 
+{
+	resize : none;
+	overflow : auto;
+	margin-top : 5px;
+	margin-right: 10.66%;
+	float : right;
+	height: auto;
+}
+
+table
+{
+	display: inline;
+}
+
+.noborder
+{
+	border:0px solid white !important; 
+	width: 20%;
+}
+
+.noborder-small
+{
+	border:0px solid white !important; 
+	width: 10%;
+}
+
+.demo 
+{
+	border-collapse:collapse;
+	padding:5px;
+}
+.demo th 
+{
+	border:1px solid #C0C0C0;
+	padding:5px;
+}
+.demo td 
+{
+	border:1px solid #C0C0C0;
+	padding:5px;
+}
+
+table#table1.demo
+{
+	margin-left: 19%;
+	width: 30%;
+}
+
+table#table2.demo
+{
+	margin-right: 19%;
+	width: 30%; 
+}
+
+.btn 
+{ 
+	font-family: Arial;
+	color: #ffffff; 
+	font-size: 20px; 
+	background: gray;
+	text-decoration: none;
+	border : 0; 
+}
+
+.btn-small
+{ 
+	font-size: 12px; 
+	padding: 1px 6px;
+}
+
+.btn-small-big
+{ 
+	font-size: 15px; 
+}
+ 
+.btn:hover 
+{ 
+	background: #666666; 
+	text-decoration: none; 
+} 
+
+#response
+{
+	font-size: 20px;
+}
+
+#response a
+{
+	text-decoration: none;
+}
+
+.inlineForm
+{
+	display: inline;
+}
+
+.urlDisplay
+{
+	max-height: 100px; 
+	overflow: auto;
+}
